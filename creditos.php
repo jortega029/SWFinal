@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -111,7 +114,7 @@
 
 <?php
 
-session_start();
+
 if (isset($_SESSION['email'])){
     echo " <script> logueado('".$_SESSION['nombre']."','".$_SESSION['imagen']."','".$_SESSION['rol']."'); </script>";
   }
