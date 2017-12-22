@@ -1,0 +1,172 @@
+@charset "utf-8";
+* 						{margin: 0; padding: 0;}
+body						{font: 16px Georgia, serif;}
+
+#page-wrap				{margin: 1% auto; color: white;}
+#page-wrap >.main 		{border: 1px solid black; padding: 1%;
+						 margin-bottom: 5px; color: black;}
+
+
+#n1                      {height: 1500px; border-radius: 20px;}   
+#s1                     {height: 1500px; border-radius: 20px;}
+section > div				{padding: 50px; }
+header, nav, section		{background: #7e9ee1; text-align: center;}
+footer					{background-color: #7e9ee1; text-align: center;}
+#f1{
+    background-color:#7e9ee1;
+}
+nav span             				{ margin: 0px 10px 0px 0px;
+						width: 100%;
+                        display: inline-block;}
+
+#ErrorMsgs          		 { color: #f61; font-size:smaler}
+
+p 				{font-family: Verdana}
+
+.boton{
+            text-align:center;
+            text-decoration: none;
+      font-family: 'Helvetica Neue', Helvetica, sans-serif;
+      display:inline-block;
+            color: #FFF;
+            background: #4150FD;
+            padding: 15px 30px;
+            white-space: nowrap;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            margin: 10px 5px;
+            -webkit-transition: all 0.2s ease-in-out;
+            -ms-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+}
+.boton:hover {background-color:white;color: black;}
+
+#error{
+	color:red;
+	font-size: larger;
+}
+
+.Login{
+	height: 40px;
+	width: 200px;
+	text-align: center;
+}
+#botonLogin{
+	background-color: #4150FD;
+	color: white;
+}
+#botonLogin:hover{
+	background-color:white;
+	color: black;
+}
+
+
+ul.menuLat{
+    margin:0;
+	padding:0;
+}
+ul.menuLat li{
+	display:block;
+	float:left;
+	padding:0 10px;
+}
+a.menuLat{
+	text-decoration: none;
+}
+
+.vertical-menu {
+    width: 180px; 
+    	margin-left:30px;
+}
+
+.vertical-menu a { 
+    color: black; 
+    display: block; 
+    padding: 12px;
+    text-decoration: none; 
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+	border-radius: 15px;
+}
+
+.vertical-menu{
+	list-style: none;
+	
+}
+
+#h1 a{
+    text-decoration:none;
+    color:black;
+    margin: 5px;
+    padding: 12px;
+}
+#h1 a:hover{
+    background-color:#ccc;
+    border-radius: 15px;
+}
+#h1 h2 {
+    margin-top:10px;
+}
+#ranking {
+    text-align:center;
+    background-color:white;
+    border-collapse: collapse;
+    vertical-align:central;
+    width:500px;
+    margin: 0 auto;
+}
+#ranking th,tr,td {
+    border: 1px double black;
+
+}
+#ranking th {
+    background-color:#dbe792;
+    height:50px;
+}
+#ranking tr{
+    height:50px;
+}
+.botonLike{
+    background-image:url(../imagenes/like.png);
+    background-repeat:no-repeat;
+    height:100px;
+    width:100px;
+    background-position:center;
+    background-color:white;
+    border-radius:10px;
+    margin:10px;
+}
+.botonDislike{
+    background-image:url(../imagenes/dislike.jpg);
+    background-repeat:no-repeat;
+    height:100px;
+    width:100px;
+    background-position:center;
+    border-radius:10px;
+    margin:10px;
+}
+#temaTest{
+    font-size:25px;
+}
+#imgPregunta{
+    height:150px;
+}
+
+#preguntaTest{
+    font-size:25px;
+    background-color:white;
+    border-radius:10px;
+    padding:15px;
+    margin:15px;
+}
+#respuestas_todas{
+    font-size:20px;
+}
+#respuestas_todas input{
+    margin:10px;
+}
